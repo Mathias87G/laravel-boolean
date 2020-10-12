@@ -26,6 +26,22 @@ return [
     'descrizione' => 'Da giocatore professionista di basket a sviluppatore web. 6 mesi di impegno da MVP e un memorabile tap-in targato Boolean hanno garantito ad Alessandro un solido futuro come web developer.'
   ],
   [
+    'img' => 'https://www.boolean.careers/images/people/quarticelli.png',
+    'nome' => 'Simone Quarticelli',
+    'anni' => 32,
+    'azienda' => 'VLC 2',
+    'ruolo' => 'Web Developer',
+    'descrizione' => 'Per supportare la famiglia, Simone inizia a lavorare come operaio da giovanissimo. Fortemente motivato a cambiare vita, per 6 mesi non stacca mai lo sguardo dal traguardo, distinguendosi per tenacia e resilienza.'
+  ],
+  [
+    'img' => 'https://www.boolean.careers/images/people/giannone.jpeg',
+    'nome' => 'Valentina Giannone',
+    'anni' => 38,
+    'azienda' => 'Bloovery',
+    'ruolo' => 'Web Developer',
+    'descrizione' => 'Un passato come responsabile di laboratorio odontotecnico, per poi decidere che non era la sua vera vocazione. Valentina ha deciso di prendere il coraggio a due mani e lanciarsi con successo nel mondo del web development.'
+  ],
+  [
     'img' => 'https://www.boolean.careers/images/people/davide.png',
     'nome' => 'Davide Patruno',
     'anni' => 29,

@@ -10904,7 +10904,29 @@ a.text-dark:focus {
 }
 
 main {
-  min-height: calc(100vh - 400px);
+  min-height: calc(100vh - 200px);
+}
+
+.card-group {
+  flex-wrap: wrap;
+  padding: 20px 0;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.card-group .card {
+  min-width: 300px;
+  max-width: 300px;
+}
+
+.home-ctr {
+  padding-top: 130px;
+}
+
+.home-ctr ul {
+  list-style: none;
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
 }
 
 footer {

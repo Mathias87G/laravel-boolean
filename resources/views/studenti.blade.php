@@ -3,7 +3,7 @@
 
 @section('main')
 <div class="container">
-  <div class="card-group">
+  <div class="card-group d-flex">
     @foreach ($data as $student)
     <div class="card">
       <img src="{{$student['img']}}" class="card-img-top" alt="{{$student['nome']}}">
@@ -16,7 +16,5 @@
     </div>
     @endforeach
   </div>
-
 </div>
-
 @endsection
