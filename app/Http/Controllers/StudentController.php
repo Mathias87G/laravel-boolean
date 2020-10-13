@@ -29,6 +29,7 @@ class StudentController extends Controller
   }
 
   public function slug($nome){
+    $trovato = false;
     foreach ($this->students as $studente) {
       if($studente['slug'] == $nome) {
         $student = $studente;

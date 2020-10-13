@@ -8,7 +8,7 @@
     <div class="card">
       <img src="{{$student['img']}}" class="card-img-top" alt="{{$student['nome']}}">
       <div class="card-body">
-        <a href="{{ route('Student.show', ['id' => $key]) }}"><h5 class="card-title">{{$student['nome']}}, {{$student['anni']}}</h5></a>
+        <a href="{{ route('Student.slug', ['slug' => $student['slug']]) }}"><h5 class="card-title">{{$student['nome']}}, {{$student['anni']}}</h5></a>
         <h6 class="card-title">{{$student['ruolo']}}</h6>
         {{-- <p class="card-text">{{$student['descrizione']}}</p> --}}
         <p class="card-text"><small class="text-muted">Assunto da: {{$student['azienda']}}</small></p>
